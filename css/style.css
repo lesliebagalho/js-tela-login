@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+
+    background: #F8FAFB;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* First Mobile */
+@media only screen and (max-width: 600px) {
+    header{
+        margin-top: 2rem;
+    }
+
+    .login{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+
+        .login-left{
+            img{
+                width: 28px;
+            }
+        }
+
+        .login-right{
+            h2{
+                color: #666;
+            }
+
+            p{
+                color: #999;
+            }
+        }
+    }
+
+    .novo-login{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #999;
+
+        .novo-login--novo{
+            margin-bottom: 1rem;
+        }
+
+        .novo-login--cadastrar{
+            width: 40%;
+            margin: 0 auto;
+            background: #F8FAFB;
+            display: flex;
+            justify-content: center;
+            padding: .6rem 0;
+            border-radius: 2rem;
+            border: 1px solid #333;
+            color: #333;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+    .main-login{
+        background: #fff;
+        width: 70%;
+        height: 330px;
+        margin: 0 auto;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        box-shadow: 2px 2px 4px #666;
+
+        input{
+            width: 280px;
+            height: 40px;
+            border-radius: .5rem;
+            margin-bottom: 2rem;
+            border: .2rem solid #888;
+        }
+
+        .main-login--error, .main-login--password{
+            color: #FFB0E6;
+            font-style: italic;
+            text-align: right;
+        }
+
+        .main-login--email, .main-login--senha{
+            padding-left: 1rem;
+        }
+
+        .main-login--esquecer{
+            margin-bottom: 2rem;
+            text-align: right;
+            color: #BDBEF4;
+            font-style: italic;
+        }
+
+        .main-login--entrar{
+            background: #0AC5D4;
+            border: 0;
+            color: #fff;
+            border-radius: 4rem;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    header{
+        margin-top: 1rem;
+    }
+
+    .login{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        .login-left{
+            img{
+                width: 28px;
+            }
+        }
+
+        .login-right{
+            h2{
+                color: #666;
+            }
+
+            p{
+                color: #999;
+            }
+        }
+    }
+
+    .novo-login{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #999;
+
+        .novo-login--novo{
+            margin-bottom: 1rem;
+        }
+
+        .novo-login--cadastrar{
+            width: 40%;
+            margin: 0 auto;
+            background: #F8FAFB;
+            display: flex;
+            justify-content: center;
+            padding: .6rem 0;
+            border-radius: 2rem;
+            border: 1px solid #333;
+            color: #333;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+    .main-login{
+        background: #fff;
+        width: 40%;
+        height: 280px;
+        margin: 0 auto;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        box-shadow: 2px 2px 4px #666;
+
+        input{
+            width: 280px;
+            height: 40px;
+            border-radius: .5rem;
+            margin-bottom: 2rem;
+            border: .2rem solid #888;
+        }
+
+        .main-login--error, .main-login--password{
+            color: #FFB0E6;
+            font-style: italic;
+            text-align: right;
+        }
+
+        .main-login--email, .main-login--senha{
+            padding-left: 1rem;
+        }
+
+        .main-login--esquecer{
+            margin-bottom: 2rem;
+            text-align: right;
+            color: #BDBEF4;
+            font-style: italic;
+        }
+
+        .main-login--entrar{
+            background: #0AC5D4;
+            border: 0;
+            color: #fff;
+            border-radius: 4rem;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+

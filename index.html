@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="login">
+                <div class="login-left"><img src="image/user.png"></div>
+                    
+                <div class="login-right">
+                    <h2>Login</h2>
+                    <p>Já sou usuário</p>
+                </div>
+            </div>
+    
+            <div class="novo-login">
+                <div class="novo-login--novo">Novo na DevMedia?</div>
+                <div class="novo-login--cadastrar"><a href="#">Cadastra-se</a></div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="main-login">
+                <form action="">
+                    <div>
+                        <label for="login">Login</label>
+                        <div id="main-login--login-error" class="main-login--error"></div>
+                        <input class="main-login--email" type="email" name="email" id="email">
+                    </div>
+    
+                    <div>
+                        <label for="password">Senha</label>
+                        <div id="main-login--senha-error" class="main-login--password"></div>
+                        <input class="main-login--senha" type="password" name="password" id="password">
+                    </div>
+    
+                    <div class="main-login--esquecer"><a href="#">Esqueceu o login ou a senha?</a></div>
+    
+                    <div class="main-login--entrar" onclick="onclickEntrar()"><a href="#">Entrar</a></div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
